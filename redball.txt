@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Ball Game</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .game-container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+    }
+
+    .ball {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 50%;
+        top: 140px;
+        left: 140px;
+    }
+
+    .obstacle {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: blue;
+        top: 100px;
+        left: 200px;
+    }
+
+    .goal {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: green;
+        top: 250px;
+        left: 120px;
+    }
+</style>
+</head>
+<body>
+<div class="game-container">
+    <div class="ball"></div>
+    <div class="obstacle"></div>
+    <div class="goal"></div>
+</div>
+</body>
+</html>
